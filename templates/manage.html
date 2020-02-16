@@ -1,0 +1,16 @@
+{% extends 'base.html'%} {% block content %}
+<h1>Manage Podcasts</h1>
+<div class="row">
+        {% for podcast in podcasts %}
+        <ul>
+            <strong>
+        <li> {{podcast.podcast_name}}
+            <a href="{{url_for('get_edit', podcast_id=podcast._id)}}" class="waves-effect waves-light btn btn_small blue">Edit</a>
+            <a href="{{url_for('get_delete', podcast_id=podcast._id)}}" class="waves-effect waves-light btn btn_small red">Del</a>
+            <hr>
+              </strong>
+                </ul>
+        {% endfor %}
+        <a href="{{url_for('get_add')}}" class="waves-effect waves-light btn btn_small green">Add</a>
+
+{% endblock %}
