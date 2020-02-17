@@ -63,7 +63,7 @@ def get_update(podcast_id):
 @app.route('/podcast_details/<podcast_id>')
 def get_details(podcast_id):
     the_podcaat = mongo.db.podcasts.find_one({'_id': ObjectId(podcast_id)})
-    return render_template("podcast_details.html", recipe=the_recipe)
+    return render_template("podcast_details.html", podcast=the_podcast)
 
 
 if __name__ == '__main__':
