@@ -12,6 +12,8 @@
         <li> {{podcast.podcast_name}}</li>
             </strong>
           <br>
+        <a href="{{url_for('get_details', podcast_id=podcast._id)}}" class="waves-effect waves-light btn btn_small red">Del</a>
+
           <button class="btn waves-effect waves-light" type="submit" name="action">More
           </button>
 
