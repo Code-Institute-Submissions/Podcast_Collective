@@ -60,6 +60,11 @@ def get_update(podcast_id):
     })
     return redirect(url_for('get_landing'))
 
+@app.route('/podcast_details/<podcast_id>')
+def podcast_details(podcast_id):
+    the_podcaat = mongo.db.podcasts.find_one({'_id': ObjectId(podcast_id)})
+    return render_template("podcast_details.html", recipe=the_recipe)
+
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
