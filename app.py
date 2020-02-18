@@ -31,6 +31,11 @@ def get_add():
     return render_template("add.html",
                            podcasts=mongo.db.podcasts.find())
 
+@app.route('/get_gatekeeper')
+def get_gatekeeper():
+    return render_template("gatekeeper.html",
+                           podcasts=mongo.db.podcasts.find())
+
 
 @app.route('/insert_podcast', methods=['POST'])
 def insert_podcast():
