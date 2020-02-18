@@ -21,6 +21,16 @@ def get_manage():
     return render_template("manage.html",
                            podcasts=mongo.db.podcasts.find())
 
+@app.route('/get_contact')
+def get_contact():
+    return render_template("contact.html",
+                           podcasts=mongo.db.podcasts.find())
+
+@app.route('/get_sent')
+def get_sent():
+    return render_template("form_sent.html",
+                           podcasts=mongo.db.podcasts.find())
+
 @app.route('/delete_podcast/<podcast_id>')
 def get_delete(podcast_id):
     mongo.db.podcasts.remove({'_id': ObjectId(podcast_id)})
