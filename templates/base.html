@@ -24,6 +24,7 @@
                 <ul class="side-nav" id="mobile-demo">
                   <li><a href="{{url_for('get_landing')}}">Home</a></li>
                   <li><a href="{{url_for('get_gatekeeper')}}">Manage Podcasts</a></li>
+                   <li><a href="{{url_for('get_contact')}}">Contact</a></li> 
                 </ul>
             </div>
 
@@ -33,14 +34,18 @@
     <div class="container">
 
     
-        <!-- Footer -->
+      
+        
+        {% block content %} 
+        
+          <!-- Footer -->
         <footer class="footer text-center pt-2 pb-5 copyright text-muted">
               <br><a href="https://www.silverheath.co.uk/" >Copyright &copy; Silverheath LTD 2020</a><p>Registered company number: 12402504<br</p>
 
            </footer>
         <!-- end: Footer -->
         
-        {% block content %} {% endblock %}
+        {% endblock %}
     </div>
     
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
