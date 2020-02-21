@@ -10,9 +10,7 @@
         {% for podcast in podcasts %}
         <ul>
             <strong>
-        <li><img src="{{podcast.podcast_image}}" alt="Podcast Image" style="width:20px;height:20px;">
-    
-        <li> {{podcast.podcast_name}}
+        <li><img src="{{podcast.podcast_image}}" alt="Podcast Image" style="width:20px;height:20px;"> {{podcast.podcast_name}} </li>
             <a href="{{url_for('get_edit', podcast_id=podcast._id)}}" class="waves-effect waves-light btn btn_small blue">Edit</a>
             <a href="{{url_for('get_delete', podcast_id=podcast._id)}}" class="waves-effect waves-light btn btn_small red">Del</a>
             <hr>
