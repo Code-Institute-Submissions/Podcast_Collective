@@ -4,20 +4,25 @@
 <h3>Please get in touch</h3>
 </div>
 </div>
-
-<div class="row">
-    <div class="col s6 offset-s3">  
-  
+   <div class="row">
+  <div class="col s6 offset-s3">
+        <div class="input-field">
+          <input placeholder="Name" id="fullname" type="text" class="validate">
+          <label for="first_name"></label>
+          <br>
+          <input placeholder="Email Address" id="email_address" type="emailaddress" class="validate">
+          <label for="email_address"></label>
+          <br>
+          <input placeholder="Phone Number" id="phone_number" type="phone" class="validate">
+          <label for="phone_number"></label>
+          <br>
+          <input placeholder="Message" id="message" rows="5" type="text" class="validate">
+          <label for="email_address"></label>
+          <br>
+          <input type="hidden" name="_next" value="{{url_for('get_sent')}}" /><br><br>
+         <br><button type="primary" class="btn btn-success center-block">Send</button>
 
                   <form action="https://formspree.io/xgeoagbb" method="POST">
-
-
-                        <input type="text" name="_name" class="form-control" id="fullname" placeholder="Name" required /><br><br>
-                        <input type="emailaddress" name="_replyto" class="form-control" id="emailaddress" placeholder="Email" required /><br><br>
-                        <input type="phone" name="_phone" class="form-control" id="phone" placeholder="Phone" required /><br><br>
-                        <textarea rows="5" name="_message" class="form-control" id="projectsummary" placeholder="Message" required></textarea><br><br>
-                        <input type="hidden" name="_next" value="{{url_for('get_sent')}}" /><br><br>
-                        <br><button type="primary" class="btn btn-success center-block">Send</button>
 
                   </form>
                   </div>
