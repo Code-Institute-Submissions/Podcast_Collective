@@ -4,12 +4,10 @@
 <h3>Please get in touch</h3>
 </div>
 </div>
-  <div class="col s6 offset-s4">
+  <div class="col s5 offset-s4 input-field">
 
-        <div class="input-field">
         <form action="https://formspree.io/mlenevdl" method="POST">
 
-        <div class="input-field col s6">
           <i class="material-icons prefix">account_circle</i>
           <input placeholder="Name" id="name" type="text" name="name" class="validate">
           <label for="icon_prefix"></label>
@@ -26,15 +24,13 @@
           <textarea placeholder="Message" id="message" name="message" class="materialize-textarea"></textarea>
           <label for="message">Textarea</label>
         </div>
-      </div>
+      
           <input type="hidden" name="_next" value="{{url_for('get_sent')}}" /><br><br>
          <br><button type="primary" class="btn btn-success center-block">Send</button>
           </form>
             </div>
         </div>   
-     </div>
-  </div>
-
+   
 
 
 {% endblock %}
