@@ -8,18 +8,30 @@
     <div class="col s6 m3 l5">
 <p>Please enter your account details to continue.<br></p>
 
-  <div class="input-field col s6 m3 l3">
+   <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="username" type="text" class="validate">
+          <label for="first_name">User Name</label>
+        </div>
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="password" type="text" class="validate">
+          <label for="first_name">Password</label>
+        </div>       
 
 <form>
-    <input type="text" size="20" maxsize="20" placeholder="Username" id="text1" />
-    <input type="password" size="20"maxsize="20"  placeholder="Password" id="text2" />  
+  
     <input type="button" value="Login"  onclick="javascript:validate()" />
 </form>
 <script type="text/javascript">
 function validate()
 {
-    if(   document.getElementById("text1").value == "admin"
-       && document.getElementById("text2").value == "admin" )
+    if(   document.getElementById("username").value == "admin"
+       && document.getElementById("password").value == "admin" )
     {
         location.href="{{url_for('get_manage')}}";
     }
