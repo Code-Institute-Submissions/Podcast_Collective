@@ -8,26 +8,27 @@
   <div class="col s6 offset-s3">
         <div class="input-field">
         <form action="https://formspree.io/xgeoagbb" method="POST">
-
-          <input placeholder="Name" id="fullname" type="text" class="validate">
-          <label for="first_name"></label>
-          <br>
-          <input placeholder="Email Address" id="email_address" type="emailaddress" class="validate">
-          <label for="email_address"></label>
-          <br>
-          <input placeholder="Phone Number" id="phone_number" type="phone" class="validate">
-          <label for="phone_number"></label>
-          <br>
-          <input placeholder="Message" id="message" rows="5" type="text" class="validate">
-          <label for="email_address"></label>
-          <br>
+        <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">First Name</label>
+        
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Telephone</label>
+  
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Textarea</label>
+        </div>
+      </div>
           <input type="hidden" name="_next" value="{{url_for('get_sent')}}" /><br><br>
          <br><button type="primary" class="btn btn-success center-block">Send</button>
-
-
                   </form>
-                  </div>
- <div class="col s12 m4 l2"><p></p></div>
+
 
             </div>
         </div>   
