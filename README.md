@@ -4,10 +4,10 @@
 
 A collection of recommended podcasts. CRUD has been built into the site to enable authorised users to Edit, Add and Delete podcasts. The Landing page has the read facility. 
 
-The project can be viewed a <a>thttps://podcast-collective.herokuapp.com/</a>
+The project can be viewed at  <a>thttps://podcast-collective.herokuapp.com/</a>
 
 ### CONCEPT:
-Having completed the section of the course a suggestion was made to create a favourite recipe site. 
+Having completed the third section of the course we received a suggestion was made to create a favourite recipe site. 
 However, as I do not cook, I felt I wanted to find an alternative. Having recently got into the joy of listening to podcasts whilst driving I wanted to spread this joy and pass on some good examples. 
 
 ### WIREFRAME:
