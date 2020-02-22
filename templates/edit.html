@@ -18,30 +18,34 @@
 <div class="row">
     <form action="{{ url_for('get_update', podcast_id=podcast._id) }}" method="POST" class="col s12">
 
-        <div class="input-field col s12">
+        <div class="input-field col s6">
+        {{podcast.podcast_name}}
             <i class="material-icons prefix">assignment</i>
             <input id="podcast_name" name="podcast_name" type="text">
-            <label for="icon_prefix">{{podcast.podcast_name}}</label>
+            <label for="icon_prefix">Name</label>
             <br>
        </div>
 
-       <div class="input-field col s12">
+       <div class="input-field col s6">
+       {{podcast.podcast_description}}
            <i class="material-icons prefix">assignment</i>
            <input id="podcast_description" name="podcast_description" type="text">
-           <label for="icon_prefix">{{podcast.podcast_description}}</label>
+           <label for="icon_prefix">Description</label>
            <br>
       </div>
 
-      <div class="input-field col s12">
+      <div class="input-field col s6">
+      {{podcast.podcast_image}}
           <i class="material-icons prefix">insert_photo</i>
           <input id="podcast_image" name="podcast_image" type="text">
-          <label for="icon_prefix">{{podcast.podcast_image}}</label>
+          <label for="icon_prefix">Image</label>
           <br>
       </div>
-      <div class="input-field col s12">
+      <div class="input-field col s6">
+      {{podcast.podcast_link}}
           <i class="material-icons prefix">link</i>
           <input id="podcast_link" name="podcast_link" type="text">
-          <label for="icon_prefix">{{podcast.podcast_link}}</label>
+          <label for="icon_prefix">Link</label>
           <br>
         <br>
       </div>
