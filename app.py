@@ -7,8 +7,6 @@ from bson.objectid import ObjectId
 app = Flask(__name__)
 app.config["MONGO_DBNAME"] = 'podcasts'
 app.config["MONGO_URI"] = os.getenv('MONGO_URI', 'mongodb://localhost')
-app.config["MONGO_username"] = 'user'
-app.config["MONGO_password"] = 'pass'
 
 mongo = PyMongo(app)
 
@@ -45,9 +43,7 @@ def get_add():
 
 @app.route('/get_gatekeeper')
 def get_gatekeeper():
-     pass = mongo.db.pass
-    user = mongo.db.user
-    return render_template("gatekeeper.html",
+return render_template("gatekeeper.html",
                            podcasts=mongo.db.podcasts.find())
 
 
