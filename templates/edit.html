@@ -17,12 +17,13 @@
 
 
 <div class="row">
- <div class="input-field col s6">
+ <div class="input-field col s6 offset-s3" >
     <form action="{{ url_for('get_update', podcast_id=podcast._id) }}" method="POST" class="col s12">
 
       
-        {{podcast.podcast_name}}
+      
         <br>
+        <p>Exiisting nane: {{podcast.podcast_name}} </p>
             <i class="material-icons prefix">assignment</i>
             <input id="podcast_name" name="podcast_name" type="text">
             <label for="icon_prefix">Name</label>
@@ -51,7 +52,7 @@
           <i class="material-icons right">playlist_add</i>
           </button>
         </form>
-        
+
   </div>
    </div>
 </div>
