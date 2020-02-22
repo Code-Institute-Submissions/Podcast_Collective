@@ -34,7 +34,7 @@ def get_sent():
 @app.route('/delete_podcast/<podcast_id>')
 def get_delete(podcast_id):
     mongo.db.podcasts.remove({'_id': ObjectId(podcast_id)})
-    return redirect(url_for('get_landing'))
+    return redirect(url_for('get_manage'))
 
 @app.route('/get_add')
 def get_add():
@@ -49,16 +49,16 @@ def get_gatekeeper():
 
 @app.route('/insert_podcast', methods=['POST'])
 def insert_podcast():
-    podcasts =  mongo.db.podcasts
+    podcasts = mongo.db.podcasts
     podcasts.insert_one(request.form.to_dict())
-    return redirect(url_for('get_landing'))
+    return redirect(url_for('get_manage'))
 
 
 
 @app.route('/edit_podcast/<podcast_id>')
 def get_edit(podcast_id):
-    the_podcast =  mongo.db.podcasts.find_one({"_id": ObjectId(podcast_id)})
-    all_podcasts =  mongo.db.podcasts.find()
+    the_podcast = mongo.db.podcasts.find_one({"_id": ObjectId(podcast_id)})
+    all_podcasts = mongo.db.podcasts.find()
     return render_template('edit.html', podcast=the_podcast,
                            categories=all_podcasts)
 
@@ -66,14 +66,14 @@ def get_edit(podcast_id):
 @app.route('/update_podcast/<podcast_id>', methods=["POST"])
 def get_update(podcast_id):
     podcasts = mongo.db.podcasts
-    podcasts.update( {'_id': ObjectId(podcast_id)},
+    podcasts.update({'_id': ObjectId(podcast_id)},
     {
         'podcast_name':request.form.get('podcast_name'),
         'podcast_description': request.form.get('podcast_description'),
         'podcast_image':request.form.get('podcast_image'),
         'podcast_website':request.form.get('podcast_website'),
     })
-    return redirect(url_for('get_landing'))
+    return redirect(url_for('get_manage'))
 
 @app.route('/podcast_details/<podcast_id>')
 def get_details(podcast_id):
