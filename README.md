@@ -4,7 +4,7 @@
 
 A collection of recommended podcasts. CRUD has been built into the site to enable authorised users to Edit, Add and Delete podcasts. The Landing page has the read facility. 
 
-The project can be viewed at  <a>thttps://podcast-collective.herokuapp.com/</a>
+The project can be viewed at <a>https://podcast-collective.herokuapp.com/</a>
 
 ### CONCEPT:
 Having completed the third section of the course we received a suggestion was made to create a favourite recipe site. 
@@ -21,8 +21,6 @@ I produced two wireframe documents. One for a desktop and the other for mobile p
 
 ### SOLUTION:
 I wanted an easy solution that anyone could access with all the necessary information in one place. Something that would be clear, concise and easy for everyone to use.
-
-My idea was to create a village website, with links to the local services, food and drink, a localised google maps search, and finally a jobs page.
 
 ### UI/UX:
 The site had to be able to be navigated by all levels of users, from beginner to advanced. In addition, all the text had to be easy read, and thought went into the layout to make the site as appealing as possible.
