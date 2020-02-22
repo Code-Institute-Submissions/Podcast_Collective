@@ -45,6 +45,8 @@ def get_add():
 
 @app.route('/get_gatekeeper')
 def get_gatekeeper():
+     pass = mongo.db.pass
+    user = mongo.db.user
     return render_template("gatekeeper.html",
                            podcasts=mongo.db.podcasts.find())
 
