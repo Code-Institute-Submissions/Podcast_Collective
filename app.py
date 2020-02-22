@@ -43,7 +43,7 @@ def get_add():
 
 @app.route('/get_gatekeeper')
 def get_gatekeeper():
-return render_template("gatekeeper.html",
+    return render_template("gatekeeper.html",
                            podcasts=mongo.db.podcasts.find())
 
 
