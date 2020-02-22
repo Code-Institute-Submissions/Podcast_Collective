@@ -32,8 +32,8 @@
 <script type="text/javascript">
 function validate()
 {
-    if(   document.getElementById("username").value == "admin"
-       && document.getElementById("password").value == "admin" )
+    if(   document.getElementById("username").value == username
+       && document.getElementById("password").value == password )
     {
         location.href="{{url_for('get_manage')}}";
     }
