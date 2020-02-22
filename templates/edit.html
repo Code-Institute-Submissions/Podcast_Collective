@@ -9,7 +9,10 @@
         <ul>
           <li><img src="{{podcast.podcast_image}}" alt="Podcast Image" style="width:100px;height:100px;">
             <strong>
-        <li><br>{{podcast.podcast_name}}</li>
+        <li><br>Existing Name: {{podcast.podcast_name}}</li>
+         <li><br>Existing Description: {{podcast.podcast_description}}</li>
+          <li><br>Existing Image: {{podcast.podcast_image}}</li>
+           <li><br>Existing Link: {{podcast.podcast_link}}</li>
             </strong>
           <br>
       </div>
@@ -23,25 +26,23 @@
       
       
         <br>
-        <p>Exiisting nane: {{podcast.podcast_name}} </p>
+
             <i class="material-icons prefix">assignment</i>
             <input id="podcast_name" name="podcast_name" type="text">
             <label for="icon_prefix">Name</label>
             <br>
     
-       {{podcast.podcast_description}}
+       
            <i class="material-icons prefix">assignment</i>
            <input id="podcast_description" name="podcast_description" type="text">
            <label for="icon_prefix">Description</label>
            <br>
     
-      {{podcast.podcast_image}}
           <i class="material-icons prefix">insert_photo</i>
           <input id="podcast_image" name="podcast_image" type="text">
           <label for="icon_prefix">Image</label>
           <br>
-      
-      {{podcast.podcast_link}}
+   
           <i class="material-icons prefix">link</i>
           <input id="podcast_link" name="podcast_link" type="text">
           <label for="icon_prefix">Link</label>
