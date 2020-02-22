@@ -12,14 +12,15 @@
         <li><br>{{podcast.podcast_name}}</li>
             </strong>
           <br>
-            </ul>
-  </div>
-  </div>
+          
+
+
 <div class="row">
     <form action="{{ url_for('get_update', podcast_id=podcast._id) }}" method="POST" class="col s12">
 
-        <div class="input-field col s6">
+        <div class="input-field col s6 offset-s3">
         {{podcast.podcast_name}}
+        <br>
             <i class="material-icons prefix">assignment</i>
             <input id="podcast_name" name="podcast_name" type="text">
             <label for="icon_prefix">Name</label>
