@@ -2,13 +2,13 @@
 
 # Code Institute – Milestone Project 3
 
-A collection of recommended podcasts. CRUD has been built into the site to enable authorised users to Edit, Add and Delete podcasts. The Landing page has the read facility. 
+A collection of recommended podcasts. CRUD has been built into the site to enable authorised users to Edit, Add and Delete podcasts. The Landing page has the read facility.
 
 The project can be viewed at <a>https://podcast-collective.herokuapp.com/</a>
 
 ### CONCEPT:
-Having completed the third section of the course we received a suggestion was made to create a favourite recipe site. 
-However, as I do not cook, I felt I wanted to find an alternative. Having recently got into the joy of listening to podcasts whilst driving I wanted to spread this joy and pass on some good examples. 
+Having completed the third section of the course we received a suggestion was made to create a favourite recipe site.
+However, as I do not cook, I felt I wanted to find an alternative. Having recently got into the joy of listening to podcasts whilst driving I wanted to spread this joy and pass on some good examples.
 
 ### WIREFRAME:
 
@@ -30,24 +30,29 @@ I also wanted the site to be viewable from all devices Mobile Phones, Tablets, L
 I considered sorting the navigation links into alphabetical order rather than what I thought would be the most used options first leading to the least used. I finally chose to sort into an order of most used pages first etc.
 
 The colour scheme I used was clear and traditional as was aimed at all ages of visitor.
-I have also moved away from my original idea of adding lots of photos of the village as this would slow down page loading times and might distract from the information given on the site.
-For the links to local resources local councils etc I have used direct links to their websites in order to maintain up to date information as these sites are likely to change on a regular basis.
 
-I did toy of entering my own information but eventually decided on using direct links. For quick access they are listed as drop-down items on the Navigation bar.
+The colour scheme I used was clear and traditional as was aimed at all ages of visitor.
+The landing page was to show a clear summary of all of the podcasts in the database with a button with a link to open up a new page with more detailed information on the podcast selected.
+
+For testing and review purposes the admin account details can be used. Username: admin Password: admin
+Before final release I would remove this account and also hide the details from the code by using data stored on the server to make sire more secure.
+
 
 ### FEATURES:
 
-History page containing phots and text about the history and development of the village.
+The colour scheme I used was clear and traditional as was aimed at all ages of visitor.
 
-Local Search page containing buttons with drop down links for a food and drink section and local services such as bin collection dates, local council and details on the country park. These are all searches I considered would be the most frequent for the area.
+The landing page was to show a clear summary of all of the podcasts in the database with a button with a link to open up a new page with more detailed information on the podcast selected.
 
-In addition, I have also included a google maps search for other options ATM, Fuel Stations etc.
+Landing page with a graphical list of the podcasts.
 
-I have also included a jobs section as I thought that if you are new into the area you could possibly be looking for employment in the local area.
+More detail page with podcast description, links etc.
 
-Following feedback from my mentor I have also included a page about myself.
+Manage podcast section. This is protected via a username and password gatekeeper. Once the right information has been added a new page will open with a list of the podcasts. For each podcast will be an edit and delete button. At the bottom of the page will be an option to add a new podcast.
+Each option will take you to a new page to enable the user to make the changes as desired.
 
-Finally I have also included a contact form to enable visitors to provide feedback etc.
+Once the change has been made the screen will go back to the list of podcasts with the manage buttons. I have toyed with the idea of going back to the initial page but chose this option to make multiple changes easier.
+
 
 
 ### TECHNOLIGIES USED:
@@ -94,12 +99,6 @@ I have also used various projects from the GitHub repository for inspiration.
 
  <a href="https://github.com/Code-Institute-Submissions" > Code Institute Submissions</a>
 
-### SOURCE CODE:
-The google map code has been adapted from:
-Google Maps Developers Documentation Tutorials/Examples.
-
-### PHOTOS:
-The Photos used on this site have been taken by myself or have been sourced online mainly from Wikipedia.
 
 ### DIPLOYMENT:
 During development I was using ATOM’s excellent editor and keeping the files backed up onto OneDrive also into a GitHub Repository.
