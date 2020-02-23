@@ -1,10 +1,14 @@
 # Podcast Collective
 
+<img src="https://www.silverheath.co.uk/images/podcast.jpg" style="margin: 0;">
+
 # Code Institute – Milestone Project 3
 
 A collection of recommended podcasts. CRUD has been built into the site to enable authorised users to Edit, Add and Delete podcasts. The Landing page has the read facility.
 
 The project can be viewed at <a>https://podcast-collective.herokuapp.com/</a>
+
+
 
 ### CONCEPT:
 Having completed the third section of the course we received a suggestion was made to create a favourite recipe site.
@@ -12,11 +16,11 @@ However, as I do not cook, I felt I wanted to find an alternative. Having recent
 
 ### WIREFRAME:
 
-I produced two wireframe documents. One for a desktop and the other for mobile phone screen sizes.
+I have produced two wireframe documents. One for a desktop and the other for mobile phone screen sizes.
 
-  * <a href="assets/wireframes/desktop.pdf/">Desktop</a>
+  * <a href="http://www.silverheath.co.uk/images/podcastdesktop.pdf/">Desktop</a>
 
-  * <a href="assets/wireframes/mobile.pdf/">Mobile Phone</a>
+  * <a href="http://www.silverheath.co.uk/images/podcastmobile.pdf/">Mobile Phone</a>
 
 
 ### SOLUTION:
