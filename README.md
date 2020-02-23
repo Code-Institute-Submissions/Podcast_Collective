@@ -19,9 +19,11 @@ However, as I do not cook, I felt I wanted to find an alternative. Having recent
 
 I have produced two wireframe documents. One for a desktop and the other for mobile phone screen sizes.
 
-  * <a href="http://www.silverheath.co.uk/images/podcastdesktop.pdf/">Desktop</a>
+<img src="http://www.silverheath.co.uk/images/podcastdesktop.pdf" style="margin: 0;">
 
-  * <a href="http://www.silverheath.co.uk/images/podcastmobile.pdf/">Mobile Phone</a>
+  * <a href="http://www.silverheath.co.uk/images/podcastdesktop.pdf">Desktop</a>
+
+  * <a href="http://www.silverheath.co.uk/images/podcastmobile.pdf">Mobile Phone</a>
 
 
 ### SOLUTION:
