@@ -16,14 +16,10 @@
       </div>
       </div>    
 
-
 <div class="row">
  <div class="input-field col s6 offset-s3" >
     <form action="{{ url_for('get_update', podcast_id=podcast._id) }}" method="POST" class="col s12">
-
-      
-      
-        <br>
+           <br>
 
             <i class="material-icons prefix">assignment</i>
             <input id="podcast_name" name="podcast_name" type="text">
@@ -55,8 +51,5 @@
   </div>
    </div>
 </div>
-
-
-
 
       {% endblock %}
