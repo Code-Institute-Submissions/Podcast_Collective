@@ -19,9 +19,7 @@ However, as I do not cook, I felt I wanted to find an alternative. Having recent
 
 I have produced two wireframe documents. One for a desktop and the other for mobile phone screen sizes.
 
-<img src="http://www.silverheath.co.uk/images/podcastdesktop.pdf" style="margin: 0;">
-
-  * <a href="http://www.silverheath.co.uk/images/podcastdesktop.pdf">Desktop</a>
+* <a href="http://www.silverheath.co.uk/images/podcastdesktop.pdf">Desktop</a>
 
   * <a href="http://www.silverheath.co.uk/images/podcastmobile.pdf">Mobile Phone</a>
 
@@ -56,31 +54,22 @@ Landing page with a graphical list of the podcasts.
 More detail page with podcast description, links etc.
 
 Manage podcast section. This is protected via a username and password gatekeeper. Once the right information has been added a new page will open with a list of the podcasts. For each podcast will be an edit and delete button. At the bottom of the page will be an option to add a new podcast.
-Each option will take you to a new page to enable the user to make the changes as desired.
 
-Once the change has been made the screen will go back to the list of podcasts with the manage buttons. I have toyed with the idea of going back to the initial page but chose this option to make multiple changes easier.
+Each option will take you to the approriate page to enable the user to make the changes as desired.
+
+Once the change has been made the screen will go back to the list of podcasts with the manage buttons. I did look at the idea of going back to the initial landing page. However I chose this methd as it makes multiple changes easier.
 
 
 
 ### TECHNOLIGIES USED:
-  * <a href="https://dev.w3.org/html5/html-author/">HTML</a>
-      * The project uses __HTML__ a mark-up language for the structure and presentation of the contents.
+ 
 
-  * <a href="https://getbootstrap.com/">Bootstrap</a>
-    * The project uses __Bootstrap__ for responsive grid layout.
 
   * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
     * The project uses __JavaScript__ an object-oriented computer programming language to create interactive effects within web browsers.
 
-  * <a href="https://fontawesome.com/">Font Awesone</a>
-    * The project uses __Font Awesome__ a toolkit based on CSS and LESS used to display icons.
-
-  * <a href="https://console.cloud.google.com">Google API</a>
-    * The project uses __Google API__ a set of application programming interfaces (APIs) which allow communication with Google Services.
-
 * <a href="https://bootswatch.com/">Bootswatch</a>
     * The project uses Bootswatch – A source for styling templates.
-
 
 * <a href="https://formspree.io/">Formspree</a>
     * The project uses Formspree – An email service.
@@ -98,9 +87,6 @@ I have used <a href="https://validator.w3.org/">HTML Validator</a> to validate t
 I have also uploaded the CSS file to <a href="https://jigsaw.w3.org/css-validator/">CSS <a>
 
 ### INFLUENCES:
-I have researched several town and village websites for inspiration. A number stood out my favourite being Hook Norton.  <a href="https://hook-norton.org.uk/" > Hook Norton</a>
-
-I did like to overall look and colour scheme however I did feel that it could do with a more modern colour scheme and layout. Hence the look and feel to my site.
 
 I have also used various projects from the GitHub repository for inspiration.
 
