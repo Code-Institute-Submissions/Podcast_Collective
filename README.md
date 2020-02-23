@@ -1,8 +1,9 @@
 # Podcast Collective
 
+# Code Institute – Milestone Project 3
+
 <img src="https://www.silverheath.co.uk/images/podcast.jpg" style="margin: 0;">
 
-# Code Institute – Milestone Project 3
 
 A collection of recommended podcasts. CRUD has been built into the site to enable authorised users to Edit, Add and Delete podcasts. The Landing page has the read facility.
 
