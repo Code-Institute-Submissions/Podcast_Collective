@@ -11,9 +11,9 @@
     <div class="col s2">
         <div class="card-panel grey lighten-1">
             <ul>
-                <li><img src="{{podcast.podcast_image}}" alt="Podcast Image" style="width:100px;height:100px;">
+                <li><img src="{{podcast.podcast_image}}" alt="Podcast Image" style="width:100px;height:100px;"></li>
                     <strong>
-        <li><br>{{podcast.podcast_name}}</li>
+        <li>{{podcast.podcast_name}}</li>
             </strong>
                     <br>
                     <a href="{{url_for('get_details', podcast_id=podcast._id)}}" class="waves-effect waves-light btn btn_small green">more</a>
