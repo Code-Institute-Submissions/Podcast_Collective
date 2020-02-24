@@ -12,10 +12,12 @@
         <div class="card-panel grey lighten-1">
             <ul>
                 <li><img src="{{podcast.podcast_image}}" alt="Podcast Image" style="width:100px;height:100px;"></li>
-                <li>{{podcast.podcast_name}}</li </ul>
+                <li>{{podcast.podcast_name}}</li>
+							</ul>
 
                 <a href="{{url_for('get_details', podcast_id=podcast._id)}}" class="waves-effect waves-light btn btn_small green">more</a>
         </div>
     </div>
+		</div>
 
     {% endfor %} {% endblock %}
