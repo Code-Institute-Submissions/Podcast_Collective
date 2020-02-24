@@ -1,36 +1,32 @@
 {% extends 'base.html'%} {% block content %}
 
 <div class="row">
-	<div class="col s12 center-align">
-		<h3>Manage Podcasts</h3>
-		<div class="row">
-			<div class="col s12">
-				{% for podcast in podcasts %}
-				<div class="row">
-					<div class="col s3">
-						<div class="card-panel grey lighten-1">
-							<ul>
-								<li><img src="{{podcast.podcast_image}}" alt="Podcast Image" style="width:100px;height:100px;">
-									<strong>
+    <div class="col s12 center-align">
+        <h3>Manage Podcasts</h3>
+        <div class="row">
+            <div class="col s12">
+                {% for podcast in podcasts %}
+                <div class="row">
+                    <div class="col s3">
+                        <div class="card-panel grey lighten-1">
+                            <ul>
+                                <li><img src="{{podcast.podcast_image}}" alt="Podcast Image" style="width:100px;height:100px;">
+                                    <strong>
                                 <li><br>{{podcast.podcast_name}}</li>
                                     </strong>
-									<br>
-									<a href="{{url_for('get_edit', podcast_id=podcast._id)}}"
-										class="waves-effect waves-light btn btn_small blue">Edit</a>
-									<a href="{{url_for('get_delete', podcast_id=podcast._id)}}"
-										class="waves-effect waves-light btn btn_small red">Del</a>
-							</ul>
-						</div>
-					</div>
+                                    <br>
+                                    <a href="{{url_for('get_edit', podcast_id=podcast._id)}}" class="waves-effect waves-light btn btn_small blue">Edit</a>
+                                    <a href="{{url_for('get_delete', podcast_id=podcast._id)}}" class="waves-effect waves-light btn btn_small red">Del</a>
+                            </ul>
+                        </div>
+                    </div>
 
+                    {% endfor %}
 
-
-					{% endfor %}
-
-					<div class="row">
-						<div class="col s12 center-align">
-							<a href="{{url_for('get_add')}}" class="waves-effect waves-light btn btn_small green">Add
+                    <div class="row">
+                        <div class="col s12 center-align">
+                            <a href="{{url_for('get_add')}}" class="waves-effect waves-light btn btn_small green">Add
 							</a>
-						</div>
-					</div>
-					{% endblock %}
+                        </div>
+                    </div>
+                    {% endblock %}

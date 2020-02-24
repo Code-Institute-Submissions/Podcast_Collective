@@ -1,56 +1,54 @@
 {% extends 'base.html'%} {% block content %}
 <div class="row">
-	<div class="row s12 center-align">
-		<h3>Manage Podcast</h3>
-		<p>Please enter your account details to continue.<br></p>
-	</div>
+    <div class="row s12 center-align">
+        <h3>Manage Podcast</h3>
+        <p>Please enter your account details to continue.
+            <br>
+        </p>
+    </div>
 </div>
 <div class="row">
-	<div class="col s2 offset-s5">
-		<div class="input-field">
-			<input placeholder="User Name" id="username" type="text" class="validate">
-			<label for="first_name"></label>
-			<br>
+    <div class="col s2 offset-s5">
+        <div class="input-field">
+            <input placeholder="User Name" id="username" type="text" class="validate">
+            <label for="first_name"></label>
+            <br>
 
-			<input placeholder="Password" id="password" type="text" class="validate">
-			<label for="first_name"></label>
-		</div>
-	</div>
+            <input placeholder="Password" id="password" type="text" class="validate">
+            <label for="first_name"></label>
+        </div>
+    </div>
 </div>
 
 <div class="row">
-	<div class="row">
-		<div class="col s6 offset-s3 center-align">
-			<form>
-				<input type="button" value="Login"  onclick="javascript:validate()" />
-</form>
-		</div>
-	</div>
+    <div class="row">
+        <div class="col s6 offset-s3 center-align">
+            <form>
+                <input type="button" value="Login" onclick="javascript:validate()" />
+            </form>
+        </div>
+    </div>
 </div>
 <script type="text/javascript">
-	function validate()
-{
-    if(   document.getElementById("username").value == "admin"
-       && document.getElementById("password").value == "admin" )
-    {
-        location.href="{{url_for('get_manage')}}";
+    function validate() {
+        if (document.getElementById("username").value == "admin" && document.getElementById("password").value == "admin") {
+            location.href = "{{url_for('get_manage')}}";
+        } else {
+            alert("You have entered incorrect details please try again.");
+            location.href = "{{url_for('get_gatekeeper')}}";
+        }
     }
-    else
-    {
-        alert( "You have entered incorrect details please try again." );
-        location.href="{{url_for('get_gatekeeper')}}";
-    }
-}
 </script>
 
 <div class="row">
-	<div class="row">
-		<div class="col s12 center-align">
+    <div class="row">
+        <div class="col s12 center-align">
 
-			<p><br>If you would like to gain access please contact me.</p>
+            <p>
+                <br>If you would like to gain access please contact me.</p>
 
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
 
 {% endblock %}
