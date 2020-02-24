@@ -5,7 +5,7 @@
 <img src="https://www.silverheath.co.uk/images/podcast.jpg" style="margin: 0;">
 
 
-A collection of recommended podcasts. CRUD has been built into the site to enable authorised users to Edit, Add and Delete podcasts. The Landing page has the read facility.
+A collection of recommended podcasts. CRUD (create, Read, update and Delete) has been built into the site to enable authorised users to Edit, Add and Delete podcasts. The Landing page has the read facility.
 
 The project can be viewed at <a>https://podcast-collective.herokuapp.com/</a>
 
@@ -35,7 +35,6 @@ I considered sorting the navigation links into alphabetical order rather than wh
 
 The colour scheme I used was clear and traditional as was aimed at all ages of visitor.
 
-The colour scheme I used was clear and traditional as was aimed at all ages of visitor.
 The landing page was to show a clear summary of all of the podcasts in the database with a button with a link to open up a new page with more detailed information on the podcast selected.
 
 For testing and review purposes the admin account details can be used. Username: admin Password: admin
@@ -77,7 +76,7 @@ The project uses __JavaScript__ an object-oriented computer programming language
 The project uses Bootswatch – A source for styling templates.
 
 <a href="https://formspree.io/">Formspree</a>
-* The project uses Formspree – An email service.
+The project uses Formspree – An email service.
 
 
 
