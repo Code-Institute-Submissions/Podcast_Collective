@@ -13,15 +13,14 @@ The project can be viewed at <a>https://podcast-collective.herokuapp.com/</a>
 
 ### CONCEPT:
 Having completed the third section of the course we received a suggestion was made to create a favourite recipe site.
-However, as I do not cook, I felt I wanted to find an alternative. Having recently got into the joy of listening to podcasts whilst driving I wanted to spread this joy and pass on some good examples.
+However, as I do not cook, I wanted to find an alternative. Having recently got into the joy of listening to podcasts I decided to create a site to contain a list of some good examples.
 
 ### WIREFRAME:
-
 I have produced two wireframe documents. One for a desktop and the other for mobile phone screen sizes.
 
 * <a href="http://www.silverheath.co.uk/images/podcastdesktop.pdf">Desktop</a>
 
-  * <a href="http://www.silverheath.co.uk/images/podcastmobile.pdf">Mobile Phone</a>
+* <a href="http://www.silverheath.co.uk/images/podcastmobile.pdf">Mobile Phone</a>
 
 
 ### SOLUTION:
@@ -80,28 +79,23 @@ I have tested this project on the most common browsers: Chrome, Edge, Firefox. T
 
 During my testing I have manually checked all the links and buttons for functionality and have also asked my friends and family to check out the site. They have checked for content, spelling and grammar issues and links and button functionality. Their comments and feedback are very appreciated.
 
-I have also used Microsoft word to double check the spelling and grammar used within the project.
+I have also used Microsoft word to double-check the spelling and grammar used within the project. 
+The excellent application Grammarly has also been used throughout this project.
 
 I have used <a href="https://validator.w3.org/">HTML Validator</a> to validate the HTML code and corrected all the major error or warning messages.
 
 I have also uploaded the CSS file to <a href="https://jigsaw.w3.org/css-validator/">CSS <a>
-
+ 
 ### INFLUENCES:
-
-I have also used various projects from the GitHub repository for inspiration.
-
+I have also used various projects from the Code Institute Submissions GitHub repository for inspiration.
  <a href="https://github.com/Code-Institute-Submissions" > Code Institute Submissions</a>
+ 
+### DEPLOYMENT:
+During development, I was using ATOM’s excellent editor and keeping the files backed up onto OneDrive also into a GitHub Repository.
 
-
-### DIPLOYMENT:
-During development I was using ATOM’s excellent editor and keeping the files backed up onto OneDrive also into a GitHub Repository.
-
-Just before I was about to publish, I uploaded the files into AWS. I used their Beautify function to make my coding as easy to read as I could. I then pushed that coding into my GitHub repository.
-
-I then uploaded the files onto a web server that I have leased from Siteground. The files were uploaded into a private folder so that I could do my final testing. Using various devices to test the code.
-
-Once happy with the final result I then renamed the test folder to a more logical name. I then went about submitting the project to the Code Institute for evaluation and feedback.
-
+Just before I was about to publish, I used GitPod. I used their Beautify function to make my coding as easy to read as I could. I then pushed that coding into my GitHub repository.
+I have hosted the app using Heroku. 
+Once happy with the result I then renamed the test folder to a more logical name. I then went about submitting the project to the Code Institute for evaluation and feedback.
 In addition, I have publicised the project via Facebook and LinkedIn to the project.
 
 ### Acknowledgements:
@@ -109,5 +103,6 @@ Thank you to everyone who has helped me with this project.
 
 Including:
 * My dear friends and family for their help with the testing of the project.
-* My girlfriend for her patience shown whist I was working to the project completed.
+* My girlfriend for her patience shown whilst I was working to the project completed.
 * My course mentor for his excellent guidance and feedback.
+
