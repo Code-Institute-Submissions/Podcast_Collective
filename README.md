@@ -62,16 +62,24 @@ Once the change has been made the screen will go back to the list of podcasts wi
 
 ### TECHNOLIGIES USED:
  
+HTML (5)
+
+CSS
+
+Python
+
+MongoDB
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
+The project uses __JavaScript__ an object-oriented computer programming language to create interactive effects within web browsers.
+    
+<a href="https://materializecss.com/">Materialize</a>
+The project uses Bootswatch – A source for styling templates.
+
+<a href="https://formspree.io/">Formspree</a>
+* The project uses Formspree – An email service.
 
 
-  * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
-    * The project uses __JavaScript__ an object-oriented computer programming language to create interactive effects within web browsers.
-
-* <a href="https://bootswatch.com/">Bootswatch</a>
-    * The project uses Bootswatch – A source for styling templates.
-
-* <a href="https://formspree.io/">Formspree</a>
-    * The project uses Formspree – An email service.
 
 ### TESTING:
 
