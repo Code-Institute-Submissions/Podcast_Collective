@@ -3,7 +3,7 @@
     <div class="col s12 center-align">
         <h3>Edit Podcast</h3>
     </div>
-</div>
+
     <div class="col s6 offset-s3">
 
         <ul>
@@ -18,7 +18,6 @@
                     <br><strong> Link: </strong>{{podcast.podcast_link}}</li>
                 <br>
     </div>
-</div>
 
     <div class="input-field col s6 offset-s3">
         <form action="{{ url_for('get_update', podcast_id=podcast._id) }}" method="POST" class="col s12">
@@ -51,7 +50,6 @@
         </form>
 
     </div>
-</div>
-</div>
+
 
 {% endblock %}
