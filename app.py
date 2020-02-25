@@ -34,8 +34,8 @@ def get_sent():
     return render_template("form_sent.html",
                            podcasts=mongo.db.podcasts.find())
 
-@app.route('/get_delete/<podcast_id>')
-def get_delete():
+@app.route('/get_del/<podcast_id>')
+def get_del():
         return render_template("delete.html",
                            podcasts=mongo.db.podcasts.find())
 
