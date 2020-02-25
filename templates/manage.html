@@ -1,10 +1,9 @@
 {% extends 'base.html'%} {% block content %}
 
-<div class="row">
+
     <div class="col s12 center-align">
         <h3>Manage Podcasts</h3>
-        <div class="row">
-            <div class="col s12">
+                <div class="col s12">
                 {% for podcast in podcasts %}
                 <div class="row">
                     <div class="col s3">
@@ -23,8 +22,7 @@
 
                     {% endfor %}
 
-                    <div class="row">
-                        <div class="col s12 center-align">
+                              <div class="col s12 center-align">
                             <a href="{{url_for('get_add')}}" class="waves-effect waves-light btn btn_small green">Add
 							</a>
                         </div>
