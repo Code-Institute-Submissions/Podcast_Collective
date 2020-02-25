@@ -1,33 +1,32 @@
 {% extends 'base.html'%} {% block content %}
-    <div class="col s12 center-align">
-        <h3>Please get in touch</h3>
-    </div>
+<div class="col s12 center-align">
+    <h3>Please get in touch</h3>
+</div>
 
-    <div class="col s5 offset-s3 input-field">
-        <form action="https://formspree.io/mlenevdl" method="POST">
+<div class="col s5 offset-s3 input-field">
+    <form action="https://formspree.io/mlenevdl" method="POST">
 
-            <i class="material-icons prefix">account_circle</i>
-            <input placeholder="Name" id="name" type="text" name="name" class="validate">
-            <label for="icon_prefix"></label>
+        <i class="material-icons prefix">account_circle</i>
+        <input placeholder="Name" id="name" type="text" name="name" class="validate">
+        <label for="icon_prefix"></label>
 
-            <i class="material-icons prefix">phone</i>
-            <input placeholder="Telehone Number" id="telephone" name="telephone" type="tel" class="validate">
-            <label for="telephone"></label>
+        <i class="material-icons prefix">phone</i>
+        <input placeholder="Telehone Number" id="telephone" name="telephone" type="tel" class="validate">
+        <label for="telephone"></label>
 
-            <i class="material-icons prefix">email</i>
-            <input placeholder="Email" id="email" type="email" name="email" class="validate">
-            <label for="email"></label>
+        <i class="material-icons prefix">email</i>
+        <input placeholder="Email" id="email" type="email" name="email" class="validate">
+        <label for="email"></label>
 
-            <i class="material-icons prefix">message</i>
-            <textarea placeholder="Message" id="message" name="message" class="materialize-textarea"></textarea>
-            <label for="message"></label>
-        </form>
-    </div>
+        <i class="material-icons prefix">message</i>
+        <textarea placeholder="Message" id="message" name="message" class="materialize-textarea"></textarea>
+        <label for="message"></label>
+    </form>
+</div>
 
-    <div class="col s12 center-align">
-        <input type="hidden" name="_next" value="{{url_for('get_sent')}}" / <br>
-        <button type="primary" class="btn btn-success center-block">Send</button>
-    </div>
-
+<div class="col s12 center-align">
+    <input type="hidden" name="_next" value="{{url_for('get_sent')}}" / <br>
+    <button type="primary" class="btn btn-success center-block">Send</button>
+</div>
 
 {% endblock %}

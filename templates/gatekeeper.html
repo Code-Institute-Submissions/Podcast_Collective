@@ -1,27 +1,27 @@
 {% extends 'base.html'%} {% block content %}
-    <div class="row s12 center-align">
-        <h3>Manage Podcast</h3>
-        <p>Please enter your account details to continue.
-            <br>
-        </p>
+<div class="row s12 center-align">
+    <h3>Manage Podcast</h3>
+    <p>Please enter your account details to continue.
+        <br>
+    </p>
+</div>
+
+<div class="col s2 offset-s5">
+    <div class="input-field">
+        <input placeholder="User Name" id="username" type="text" class="validate">
+        <label for="first_name"></label>
+        <br>
+
+        <input placeholder="Password" id="password" type="text" class="validate">
+        <label for="first_name"></label>
     </div>
+</div>
 
-    <div class="col s2 offset-s5">
-        <div class="input-field">
-            <input placeholder="User Name" id="username" type="text" class="validate">
-            <label for="first_name"></label>
-            <br>
-
-            <input placeholder="Password" id="password" type="text" class="validate">
-            <label for="first_name"></label>
-        </div>
-    </div>
-
-        <div class="col s6 offset-s3 center-align">
-            <form>
-                <input type="button" value="Login" onclick="javascript:validate()" />
-            </form>
-        </div>
+<div class="col s6 offset-s3 center-align">
+    <form>
+        <input type="button" value="Login" onclick="javascript:validate()" />
+    </form>
+</div>
 
 <script type="text/javascript">
     function validate() {
@@ -34,12 +34,11 @@
     }
 </script>
 
-        <div class="col s12 center-align">
+<div class="col s12 center-align">
 
-            <p>
-                <br>If you would like to gain access please contact me.</p>
+    <p>
+        <br>If you would like to gain access please contact me.</p>
 
-        </div>
-
+</div>
 
 {% endblock %}
