@@ -1,7 +1,8 @@
 {% extends 'base.html'%} {% block content %}
 
 <div class="col s12 center-align">
-    <h3>Delete Podcasts</h3>
+    <h3>Manage Podcasts</h3>
+    <form action="{{ url_for('insert_podcast') }}" method="POST" ">
     <div class="col s12">
         {% for podcast in podcasts %}
         <div class="row">
@@ -19,5 +20,5 @@
                     </ul>
                 </div>
             </div>
-
+</form>
             {% endfor %}  {% endblock %}
