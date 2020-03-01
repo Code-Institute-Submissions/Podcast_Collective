@@ -2,7 +2,7 @@
 
 # Code Institute – Milestone Project 3
 
-<img src="https://www.silverheath.co.uk/images/podcast.jpg" style="margin: 0;">
+<img src="https://www.silverheath.co.uk/images/podcasts.jpg" style="margin: 0;">
 
 
 A collection of recommended podcasts. CRUD (create, Read, update and Delete) has been built into the site to enable authorised users to Edit, Add and Delete podcasts. The Landing page has the read facility.
