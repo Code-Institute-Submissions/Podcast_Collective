@@ -39,7 +39,9 @@ The landing page was to show a clear summary of all of the podcasts in the datab
 
 ### SECURITY:
 
-For testing and review purposes the admin account details can be used. Username: admin Password: admin Before final release I would remove this account and also hide the details from the code by using data stored on the server to make the site more secure.
+For testing and review purposes the admin account details can be used. Username: admin Password: admin 
+
+Before final release I would remove this account and also hide the details from the code by using data stored on the server to make the site more secure.
 
 ### FEATURES:
 
