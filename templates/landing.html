@@ -15,6 +15,8 @@
                                 <li><br>{{podcast.podcast_name}}</li>
                                     </strong>
                             <br>
+                            <a href="{{url_for( 'get_details', podcast_id=podcast._id)}} " class="waves-effect waves-light btn btn_small green ">More</a>
+
                     </ul>
                         </div>
             {% endfor %}  {% endblock %}
