@@ -2,22 +2,19 @@
 
 <div class="col s12 center-align">
     <h3>Recommended Podcasts</h3>
-    <div class="col s12">
+    <form action="{{ url_for('insert_podcast') }}" method="POST" ">
+    <div class="col s12 ">
         {% for podcast in podcasts %}
 
-        <div class="row">
-            <div class="col s12 m6 l3">
+        <div class="row ">
+        <div class="col s12 m2 l3 ">
 
-                <ul>
-                    <li><img src="{{podcast.podcast_image}}" alt="Podcast Image" style="width:100px;height:100px;"></li>
-                    <li>{{podcast.podcast_name}}</li>
-                </ul>
-
-                <a href="{{url_for('get_details', podcast_id=podcast._id)}}" class="waves-effect waves-light btn btn_small green">more</a>
-
-                </div>
-            </div>
-
-
-
-            {% endfor %} {% endblock %}
+                    <ul>
+                        <li><img src="{{podcast.podcast_image}} " alt="Podcast Image " style="width:100px;height:100px; ">
+                            <strong>
+                                <li><br>{{podcast.podcast_name}}</li>
+                                    </strong>
+                            <br>
+                    </ul>
+                        </div>
+            {% endfor %}  {% endblock %}
